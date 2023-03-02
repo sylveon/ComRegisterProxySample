@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+
+  <file name="ComProxyStub.dll">
+    <comClass clsid="{226D1946-ED81-4538-A205-77A9A8C95F3F}" threadingModel="both" />
+  </file>
+
+  <comInterfaceExternalProxyStub name="IDoSomethingOnTheServer" iid="{226D1946-ED81-4538-A205-77A9A8C95F3F}" proxyStubClsid32="{226D1946-ED81-4538-A205-77A9A8C95F3F}" />
+
+</assembly>

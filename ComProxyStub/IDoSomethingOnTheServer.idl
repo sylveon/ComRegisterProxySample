@@ -1,0 +1,7 @@
+import "unknwn.idl";
+
+[object, uuid(226D1946-ED81-4538-A205-77A9A8C95F3F)]
+interface IDoSomethingOnTheServer : IUnknown
+{
+	HRESULT Add([in] int a, [in] int b, [out, retval] int* result);
+};
